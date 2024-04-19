@@ -4,30 +4,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap"
+    rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="src/style.css">
   <title>SonjaCodes AI Quote Generator</title>
 </head>
 
 <body>
-  <header>
-    <h1>AI Inspirational Quote Generator</h1>
-  </header>
+  <div class="container">
+    <header>
+      <h1>AI Inspirational Quote Generator</h1>
+    </header>
 
-  <main>
-    <form>
-      <input type="text" placeholder="Enter the topic of your request" autofocus required autocomplete="off" />
-      <input type="submit" />
-    </form>
-    <div>
-      The quote will go here
-      <br />
-      continued...
-    </div>
-  </main>
+    <main>
+      <form>
+        <input type="text" placeholder="Enter the topic of your request" autofocus required autocomplete="off"
+          class="instructions" />
+        <input type="submit" class="inspiration-button" value="Get inspired!" />
+      </form>
+      <div class="quote">
+        The quote will go here
+        <br />
+        continued...
+      </div>
+    </main>
+  </div>
   <footer>
     This AI project was coded with 💖 by <a href="https://github.com/SonjaCodes" target="_blank"><strong>Sonja
-        Kolmer</a>
+        Kolmer</strong></a>
     and is open-sourced on
     <a href="https://github.com/SonjaCodes/inspirational-quote-generator" target="_blank">Github</a>
     and hosted on
