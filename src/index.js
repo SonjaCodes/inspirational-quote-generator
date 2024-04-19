@@ -1,8 +1,6 @@
 function generateQuote(event) {
   event.preventDefault();
 
-  let quoteElement = document.querySelector("#quote");
-
   new Typewriter("#quote", {
     strings: "Your inspiration is in the works...",
     autoStart: true,
