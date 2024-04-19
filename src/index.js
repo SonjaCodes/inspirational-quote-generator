@@ -13,7 +13,7 @@ function generateQuote(event) {
   let instructionInput = document.querySelector("#instructions");
   let apiKey = "fbef01f4et1b02o0d25c27210a43ef3f";
   let context =
-    "You are an inspiration to everyone around the globe and an expert on quotes from famous people.  You love to write short inspirational quotes.  Your mission is to generate a short cheerful inspirational quote in basic HTML.  Make sure to follow the user instructions.";
+    "You are an inspiration to everyone around the globe and an expert on quotes from famous people.  You love to write short inspirational quotes.  Your mission is to generate a short cheerful inspirational quote in basic HTML.  Please do not mention the format, simply the quote itself. Make sure to follow the user instructions.";
   let prompt = `Generate an inspirational quote about ${instructionInput.value}`;
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
