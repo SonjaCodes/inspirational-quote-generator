@@ -13,6 +13,8 @@
     href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap"
     rel="stylesheet">
 
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
   <link rel="stylesheet" href="src/style.css">
   <title>SonjaCodes AI Quote Generator</title>
 </head>
@@ -24,15 +26,12 @@
     </header>
 
     <main>
-      <form>
+      <form id="inspirational-form">
         <input type="text" placeholder="Enter the topic of your request" autofocus required autocomplete="off"
           class="instructions" />
         <input type="submit" class="inspiration-button" value="Get inspired!" />
       </form>
-      <div class="quote">
-        The quote will go here
-        <br />
-        continued...
+      <div class="quote" id="quote">
       </div>
     </main>
   </div>
