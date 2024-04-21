@@ -10,6 +10,10 @@ function displayQuote(response) {
 function generateQuote(event) {
   event.preventDefault();
 
+  let inspirationButton = document.querySelector("#inspiration-button");
+  inspirationButton.disabled = true;
+  inspirationButton.classList.add("disabled");
+
   let instructionInput = document.querySelector("#instructions");
   let apiKey = "fbef01f4et1b02o0d25c27210a43ef3f";
   let context =
