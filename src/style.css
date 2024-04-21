@@ -61,6 +61,10 @@ form {
   padding: 30px;
 }
 
+.quote strong {
+  color: #D63484;
+}
+
 footer {
   color: #F8F4EC;
   font-size: 13px;
