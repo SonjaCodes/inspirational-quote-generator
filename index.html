@@ -27,12 +27,15 @@
     </header>
 
     <main>
-      <form id="inspirational-form">
-        <input type="text" placeholder="Enter the topic of your request" autofocus required autocomplete="off"
-          class="instructions" id="instructions" />
-        <input type="submit" class="inspiration-button" value="Get inspired!" />
-      </form>
-      <div class="quote" id="quote">
+      <div class="form-container">
+        <form id="inspirational-form">
+          <input type="text" placeholder="Please enter a topic of your choice..." autofocus required autocomplete="off"
+            class="instructions" id="instructions" />
+          <input type="submit" class="inspiration-button" value="Get inspired!" />
+        </form>
+        <div class="hint">i.e. love, happiness, rain, etc.</div>
+      </div>
+      <div class="quote hidden" id="quote">
       </div>
     </main>
   </div>
