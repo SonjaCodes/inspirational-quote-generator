@@ -52,7 +52,14 @@ form {
   color: white;
   margin-left: 10px;
   padding: 14px 24px;
+  transition: all 150ms ease-in-out;
   width: 20%;
+}
+
+.inspiration-button:hover {
+  background-color: #F8F4EC;
+  border: 2px solid #D63484;
+  color: #D63484;
 }
 
 .hint {
