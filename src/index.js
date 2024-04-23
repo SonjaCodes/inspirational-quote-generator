@@ -12,7 +12,9 @@ function generateQuote(event) {
 
   let inspirationButton = document.querySelector("#inspiration-button");
   inspirationButton.disabled = true;
-  inspirationButton.classList.add("disabled");
+  setTimeout(function () {
+    inspirationButton.disabled = false;
+  }, 3000);
 
   let instructionInput = document.querySelector("#instructions");
   let apiKey = "fbef01f4et1b02o0d25c27210a43ef3f";
